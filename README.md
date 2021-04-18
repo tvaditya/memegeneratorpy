@@ -40,6 +40,8 @@ The quote_engine module is responsible for ingesting many types of files that co
 ```
 This module will is composed of many classes and will demonstrate your understanding of complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles.
 
+You can also use the parse method within ingestor to add files via CLI ( Check the main method).
+
 ### meme_generator
 The Meme Engine Module is responsible for manipulating and drawing text onto images. It will reinforce your understanding of object-oriented thinking while demonstrating your skill using a more advanced third party library for image manipulation.
 
