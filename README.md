@@ -29,3 +29,19 @@ Once it is run you will see this:
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 You can just access the http address above.
+
+## A description of the modules
+
+### quote_engine
+
+The quote_engine module is responsible for ingesting many types of files that contain quotes. For our purposes, a quote contains a body and an author:
+```bash
+"This is a quote body" - Author
+```
+This module will is composed of many classes and will demonstrate your understanding of complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles.
+
+### meme_generator
+The Meme Engine Module is responsible for manipulating and drawing text onto images. It will reinforce your understanding of object-oriented thinking while demonstrating your skill using a more advanced third party library for image manipulation.
+
+### quote_models
+Just encapsulates the body and the author models.
