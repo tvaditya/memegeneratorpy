@@ -2,7 +2,7 @@ import os
 import subprocess
 
 from quote_engine.ingestor_interface import IngestorInterface
-from quote_engine.text_ingestor import TextIngestor
+from quote_engine.ingest_txt import TextIngestor
 
 
 class PDFIngestor(IngestorInterface):
