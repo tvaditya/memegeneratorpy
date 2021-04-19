@@ -28,7 +28,9 @@ Once it is run you will see this:
 * Debug mode: off
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
-You can just access the http address above.
+You can just access the http address above http://127.0.0.1:5000/ on your browser.
+Once that is done you will see the meme being generated, if you press RANDOM a new Meme will be generated if you press CREATE 
+you can upload your own images.
 
 ## A description of the modules
 
