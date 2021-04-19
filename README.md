@@ -5,7 +5,7 @@ This README file will provide you with all you need to run this in you local pyt
 
 ## What do you need?
 
-A requirments file has been provided with all you need, please be sure you are using Python 3.8.x.
+A requirements file has been provided with all you need, please be sure you are using Python 3.8.x.
 Also install "pdftotext" you can find it in https://www.xpdfreader.com/download.html
 On the root dir you will see a requirements file, execute it as says below.
 ```bash
