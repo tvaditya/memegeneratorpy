@@ -3,21 +3,28 @@
 This is a random meme generator web app that uses Flask as a framework and covers some intermediate knowledge in Python.
 This README file will provide you with all you need to run this in you local python environment.
 
-## What do you need?
+## Installation
+Clone the repo https://github.com/tvaditya/memegeneratorpy , when done enter in the root directory and be sure you have Pyton 3.8 installed.
+when in the root directory , you will find the a file called requirements.txt , read the paragrpah below and follow the instructions so you can replicate the environment I used.
 
-A requirements file has been provided with all you need, please be sure you are using Python 3.8.x.
-Also install "pdftotext" you can find it in https://www.xpdfreader.com/download.html
+
+The requirements file has been provided with all you need, please be sure you are using Python 3.8.x.
+
 On the root dir you will see a requirements file, execute it as says below.
 ```bash
 pip install -r requirements.txt
 ```
+Also install "pdftotext" you can find it in https://www.xpdfreader.com/download.html
 
 ## Running the app
+
+If you have followed the step above correctly you will see a file named app.py, that is our main program and t should be the file you must execute
 Just execute your python app on your terminal as says below:
-(This was developed under Ubuntu 20.04)
+
 ```bash
 python app.py
 ```
+(This was developed under Ubuntu 20.04)
 
 Once it is run you will see this:
 ```bash
