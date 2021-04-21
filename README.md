@@ -36,7 +36,7 @@ Once it is run you will see this:
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 You can just access the http address above http://127.0.0.1:5000/ on your browser.
-Once that is done you will see the meme being generated, if you press RANDOM a new Meme will be generated if you press CREATE 
+Once that is done you will see the meme being generated, if you press RANDOM a new Meme will be generated if you press CREATE
 you can upload your own images.
 
 ## Command-Line Interface tool
@@ -49,7 +49,32 @@ or
 ```bash
 python -m meme_generator
 ```
-it will return you the path 
+it will return you the path where you can load your own .jpg images. In my case:
+```bash
+(py38) aditya@aditya-Inspiron-5759:~/Projects/PythonProgs/memegeneratorpy$ python -m meme_generator
+./generated_images/temp-1.jpg
+```
+
+Once you know the path you can generate your own quotes as well, first check the help.
+```bash
+(py38) aditya@aditya-Inspiron-5759:~/Projects/PythonProgs/memegeneratorpy$ python -m meme_generator -h
+usage: __main__.py [-h] [--path [PATH]] [--body [BODY]] [--author [AUTHOR]]
+
+Generates meme and prints their path
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --path [PATH]      path to an image file
+  --body [BODY]      quote body to add to the image
+  --author [AUTHOR]  quote author to add to the image
+```
+
+An example is:
+```bash
+python -m meme_generator --path ./generated_images/temp-1.jpg --body "This is my quote"  --author "Me Myself"
+```
+
+
 
 
 ## A description of the modules
