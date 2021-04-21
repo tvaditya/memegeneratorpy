@@ -18,7 +18,7 @@ Also install "pdftotext" you can find it in https://www.xpdfreader.com/download.
 
 ## Running the app
 
-If you have followed the step above correctly you will see a file named app.py, that is our main program and t should be the file you must execute
+If you have followed the step above correctly you will see a file named app.py, that is our main program and it should be the file you must execute
 Just execute your python app on your terminal as says below:
 
 ```bash
@@ -38,6 +38,19 @@ Once it is run you will see this:
 You can just access the http address above http://127.0.0.1:5000/ on your browser.
 Once that is done you will see the meme being generated, if you press RANDOM a new Meme will be generated if you press CREATE 
 you can upload your own images.
+
+## Command-Line Interface tool
+
+To execute via command line be sure you are in the same directory as above and type.
+```bash
+python3 -m meme_generator
+```
+or
+```bash
+python -m meme_generator
+```
+it will return you the path 
+
 
 ## A description of the modules
 
