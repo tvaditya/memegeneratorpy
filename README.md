@@ -1,7 +1,7 @@
 # memegenerator.py
 
 This is a random meme generator web app that uses Flask as a framework and covers some intermediate knowledge in Python.
-This README file will provide you with all you need to run this in you local python environment.
+This README file will provide you with all you need to run this in you local python environment. It is the final project of Udacity Python Nanodegree.
 
 ## Installation
 Clone the repo https://github.com/tvaditya/memegeneratorpy , when done enter in the root directory and be sure you have Pyton 3.8 installed.
